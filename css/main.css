@@ -55,9 +55,25 @@
 }
 .btn-registration {
   margin-top: 23px;
+  margin-bottom: 79px;
   height: 39px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   border-radius: 4px;
   opacity: 1;
+}
+
+@media only screen and (max-width: 426px) {
+  .container-main {
+    width: 100%;
+  }
+
+  .container-text-form {
+    width: 386px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 769px) {
 }
