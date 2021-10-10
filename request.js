@@ -31,6 +31,10 @@ function card(data) {
     document.querySelector(".container-card").appendChild(article);
   }
 }
+const btnMoreProd = document.querySelector("#btn-more");
+btnMoreProd.addEventListener("click", (event) => {
+  search();
+});
 
 // for (let product of data.products) {
 //   const article = document.createElement('article');
