@@ -16,7 +16,7 @@ const isEmailFriend = document.querySelector("#input-friend-email");
 const isNameFriend = document.querySelector("#input-friend-name");
 //friend registration submission event
 document
-  .querySelector(".btn-register-friende")
+  .querySelector(".btn-register-friend")
   .addEventListener("click", (event) => {
     event.preventDefault();
     isValidName(isNameFriend.value);

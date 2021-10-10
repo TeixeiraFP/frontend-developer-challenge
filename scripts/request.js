@@ -23,7 +23,7 @@ function card(data) {
       <p class="description-content invisible">${value.description}</p>
       <p class="old-price">De: R$${value.oldPrice}</p>
       <p class="price">Por: R$${value.price}</p>
-      <p class="division-price">Ou: ${value.installments.count} de R$:${value.installments.value}</p>
+      <p class="division-price">Ou: ${value.installments.count}x de R$:${value.installments.value}</p>
       <button class="btn-card-content">Comprar</button>
     </section>
     `;
@@ -35,25 +35,3 @@ const btnMoreProd = document.querySelector("#btn-more");
 btnMoreProd.addEventListener("click", (event) => {
   search();
 });
-
-// for (let product of data.products) {
-//   const article = document.createElement('article');
-//   article.setAttribute('class', 'card');
-//   const html =
-//   `<section class="card-image-container">
-//       <img class="card-image" src="https:${product.image}" alt="Image">
-//   </section>
-//   <section class="card-content-container">
-//       <h3>${product.name}</h3>
-//       <p>${product.description}</p>
-//       <p>De: R$${product.oldPrice}</p>
-//       <p class="price">Por: R$${product.price}</p>
-//       <p>ou ${product.installments.count}x de R$${product.installments.value}</p>
-//       <button>Comprar</button>
-//   </section>`;
-//   article.innerHTML = html;
-//   document.querySelector('.card-container').appendChild(article);
-// }
-// endpoint = 'https://' + data.nextPage;
-// });
-// }
