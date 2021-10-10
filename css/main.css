@@ -14,7 +14,7 @@
   width: 520px;
   height: 220px;
   text-align: left;
-  font: normal normal normal 12px/18px Helvetica Neue;
+  font: normal normal normal 12px/18px Helvetica;
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
@@ -24,7 +24,7 @@
   width: 332px;
   height: 23px;
   text-align: left;
-  font: normal normal normal 20px/24px Helvetica Neue;
+  font: normal normal normal 20px/24px Helvetica;
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
@@ -41,7 +41,7 @@
   width: 58px;
   height: 14px;
   text-align: left;
-  font: normal normal normal 12px/14px Helvetica Neue;
+  font: normal normal normal 12px/14px Helvetica;
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
@@ -61,6 +61,10 @@
   border: 1px solid #707070;
   border-radius: 4px;
   opacity: 1;
+
+  font: normal normal normal 16px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
 }
 .container-prod {
   width: 920px;
@@ -97,14 +101,14 @@
   display: flex;
   flex-direction: column;
 
-  font: normal normal normal 12px/16px Helvetica Neue;
+  font: normal normal normal 12px/16px Helvetica;
   color: #888888;
   letter-spacing: 0px;
   opacity: 1;
 }
 .title-card-content {
   margin-top: 10px;
-  font: normal normal normal 14px/16px Helvetica Neue;
+  font: normal normal normal 14px/16px Helvetica;
   letter-spacing: 0px;
   color: #888888;
 }
@@ -113,11 +117,11 @@
 }
 .old-price {
   margin-top: 10px;
-  font: normal normal normal 12px/16px Helvetica Neue;
+  font: normal normal normal 12px/16px Helvetica;
 }
 .price {
   margin-top: 6px;
-  font: normal normal bold 16px/16px Helvetica Neue;
+  font: normal normal bold 16px/16px Helvetica;
 }
 .division-price {
   margin-top: 7px;
@@ -129,7 +133,7 @@
   border: 1px solid #707070;
   border-radius: 4px;
 
-  font: normal normal normal 16px/16px Helvetica Neue;
+  font: normal normal normal 16px/16px Helvetica;
   color: #888888;
 }
 .btn-more-prod {
@@ -141,19 +145,74 @@
   border: 1px solid #707070;
   border-radius: 4px;
 
-  font: normal normal normal 16px/16px Helvetica Neue;
+  font: normal normal normal 16px/16px Helvetica;
   color: #888888;
+}
+.container-register-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 128px;
+
+  color: #888888;
+  opacity: 1;
+}
+.title-registe {
+  font: normal normal bold 18px/16px Helvetica;
+}
+.text-register {
+  margin-top: 45px;
+  font: normal normal normal 14px/16px Helvetica;
+}
+.forms-register {
+  margin-top: 40px;
+  width: 720px;
+  display: flex;
+  justify-content: space-between;
+}
+.fields {
+  font: normal normal normal 12px/14px Helvetica;
+}
+.input {
+  width: 340px;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+}
+.btn-register-friend {
+  margin-top: 50px;
+  margin-bottom: 72px;
+  width: 260px;
+  height: 39px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
 }
 @media only screen and (max-width: 426px) {
   .container-main {
-    width: 100%;
+    width: 420px;
   }
 
   .container-text-form {
     width: 386px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-content {
+    height: 220px;
+    margin-left: 16px;
+  }
+  .forms {
+    height: 400px;
   }
   .container-card {
     display: flex;
@@ -185,8 +244,36 @@
   .description-content {
     display: none;
   }
+  .container-register-friend {
+    width: 420px;
+    margin-top: 121px;
+  }
+  .text-register {
+    margin-top: 18px;
+    text-align: center;
+  }
+  .forms-register {
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-register-friend {
+    margin-top: 28px;
+    margin-bottom: 85px;
+
+    font: normal normal normal 16px/16px Helvetica;
+    letter-spacing: 0px;
+    color: #888888;
+  }
 }
 @media only screen and (min-width: 426px) and (max-width: 769px) {
+  .container-text-form {
+    display: none;
+  }
+  .title-prod {
+    display: none;
+  }
   .container-card {
     width: 600px;
 
@@ -199,5 +286,8 @@
   .card {
     height: 350px;
     margin-right: 30px;
+  }
+  .container-register-friend {
+    display: none;
   }
 }
