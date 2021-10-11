@@ -16,7 +16,9 @@
 
 Projeto desenvolvido em JavaScrip, utilizando elementos do DOM para manipular a interface. Uma API foi consumida de forma paginada, cada página consultada retorna 8 produtos. Todo o layout pré definido em um mock disponibilizado pela linx. <br>
 
-### Deploy netlify: ` https://gallant-mclean-c98e59.netlify.app/`
+### Deploy netlify: <br>
+
+<a>` https://gallant-mclean-c98e59.netlify.app/` </a>
 
 ### OBS: <br>
 
