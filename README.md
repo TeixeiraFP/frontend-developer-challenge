@@ -14,7 +14,7 @@
 
 ### Sobre
 
-Projeto desenvolvido em JavaScrip, utilizando elementos do DOM para manipular a interface. Uma API foi consumida de forma paginada, cada página consultada retorna 8 produtos. Todo o layout pré definido em um mock disponibilizado pela linx. <br>
+Projeto desenvolvido em JavaScrip, utilizando elementos do DOM para manipular a interface. Uma API foi consumida de forma paginada, cada página consultada retorna 8 produtos. Todo o layout foi feito respeitando as dimenssões de um layout pré definido em um mock disponibilizado pela linx. <br>
 
 ### Deploy netlify: <br>
 
