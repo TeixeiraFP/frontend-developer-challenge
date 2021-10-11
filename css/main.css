@@ -302,6 +302,7 @@
   }
   .container-prod {
     width: 600px;
+    margin-top: 0;
   }
   .container-card {
     width: 600px;

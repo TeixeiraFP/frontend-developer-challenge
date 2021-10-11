@@ -1,7 +1,7 @@
 .container-header {
   width: 1500px;
   min-height: 400px;
-  background-image: url("../public/background-header.svg");
+  background-image: url("../assets/background-header.svg");
   background-size: cover;
 
   opacity: 1;
